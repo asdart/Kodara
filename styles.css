@@ -434,6 +434,12 @@ body {
         rgba(255, 255, 255, 0.19) 0%,
         rgba(255, 255, 255, 0) 100%);
     border-radius: calc(0.75rem - 1px);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.submit-button:hover::before {
+    opacity: 1;
 }
 
 .submit-button::after {
