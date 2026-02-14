@@ -1,62 +1,31 @@
-# Account Creation Form
+# Whitelabel App
 
-A beautiful, modern account creation form with a frosted glass effect, implementing the design from Figma.
+React + TypeScript + Vite app with account creation flow and chat interface.
 
 ## Features
 
-- ✨ Modern frosted glass UI design
-- 🎨 Smooth gradient backgrounds
-- 🔒 Password visibility toggle
-- ✅ Real-time password validation
-- 📱 Responsive design
-- 🎯 Form validation
+- Account creation form with frosted glass UI
+- Chat interface with AI responses
+- Voice playback, copy, like/dislike, feedback actions
+- Responsive design
 
-## Password Requirements
+## Tech Stack
 
-The password must include:
-- 8+ characters
-- 1 uppercase letter
-- 1 number
-- 1 special character (!@#$% etc.)
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Instrument Sans font
 
-## Files Structure
+## Development
 
-```
-Account creation/
-├── index.html          # Main HTML file
-├── styles.css          # All styles and design tokens
-├── script.js           # Form validation and interactivity
-├── assets/             # Images and SVG assets
-│   ├── Background shapes
-│   ├── Logo elements
-│   ├── Icons (eye, checkmark)
-│   └── Avatar image
-└── README.md           # This file
+```bash
+npm install
+npm run dev
 ```
 
-## Technologies Used
+## Build
 
-- HTML5
-- CSS3 (with CSS Variables for design tokens)
-- Vanilla JavaScript
-- Google Fonts (Instrument Sans)
-
-## How to Use
-
-Simply open `index.html` in a modern web browser. No build process or dependencies required!
-
-## Browser Support
-
-Works on all modern browsers that support:
-- CSS backdrop-filter
-- CSS custom properties (variables)
-- ES6 JavaScript
-
-## Design Details
-
-- Font: Instrument Sans
-- Color scheme: Light theme with cyan accents
-- Border radius: 8px, 16px, 24px
-- Blur effect: 20px backdrop blur
-- Shadow: Multi-layered for depth
-
+```bash
+npm run build
+```
